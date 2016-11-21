@@ -72,5 +72,8 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Wangjunyu/sample_hexo_blog_settings
+  repo: https://github.com/Wangjunyu/hexo.junyu.pro
   branch: gh-pages
+  type: git
+  repository: git@git.coding.net:Leon_wang/hexo.junyu.pro
+  branch: coding-pages
