@@ -66,14 +66,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+## theme: landscape
+theme: Anisina
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Wangjunyu/hexo.junyu.pro
-  branch: gh-pages
-  type: git
-  repository: git@git.coding.net:Leon_wang/hexo.junyu.pro
-  branch: coding-pages
+  repo:
+    github: git@github.com:Wangjunyu/hexo.junyu.pro,gh-pages
+    coding: git@git.coding.net:Leon_wang/hexo.junyu.pro,coding-pages
